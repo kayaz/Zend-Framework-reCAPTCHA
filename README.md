@@ -18,7 +18,8 @@ Place in `<form>` section:
 ```
 
 Check recaptcha response:
-```$grecaptcha = $this->_request->getPost('g-recaptcha-response');
+```
+$grecaptcha = $this->_request->getPost('g-recaptcha-response');
 if(getRecaptchaCheck($grecaptcha) === true){
 // send form
 }
