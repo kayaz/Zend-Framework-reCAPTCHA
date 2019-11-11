@@ -7,12 +7,12 @@ google.recaptcha.pagekey = ''
 google.recaptcha.secret = ''
 ```
 
-Place in <head> section:
+Place in `<head>` section:
 ```
 <?php echo getRecaptchaBody(); ?>
 ```
   
-Place in <form> section:
+Place in `<form>` section:
 ```
 <?php echo getRecaptchaForm('action_name') ;?>
 ```
