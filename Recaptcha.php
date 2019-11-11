@@ -52,7 +52,7 @@ abstract class kCMS_Recaptcha extends Zend_Controller_Action {
 					throw new Exception('Could not get recaptcha response');
 				}
 			} else {
-				throw new Exception('Unable to find pagekey in application.ini');
+				throw new Exception('Unable to find secret in application.ini');
 			}
 		}
 
